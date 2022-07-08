@@ -18,8 +18,11 @@ nav li {
   padding: 0.1em 0.5em;
 }
 
-#about img {
+#about {
   display: flex;
+}
+
+#about img {
   height: 20em;
   margin: auto 2em;
 }

@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./resources/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Portfolio of Kimble</h1>
-      <nav>
-        <ul>
-          <li><a class="anchor" href="#about">About Me</a></li>
-          <li><a class="anchor" href="#projects">Projects</a></li>
-          <li><a class="anchor" href="#skills">Skills</a></li>
-          <li><a class="anchor" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./resources/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Portfolio of Kimble</h1>
+    <nav>
+      <ul>
+        <li><a class="anchor" href="#about">About Me</a></li>
+        <li><a class="anchor" href="#projects">Projects</a></li>
+        <li><a class="anchor" href="#skills">Skills</a></li>
+        <li><a class="anchor" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <div id="container">
     <section id="about">
       <div>
         <h2>About Me</h2>
         <p>Greetings! I'm Kimble, an aspiring web developer.</p>
-      </div>      
-      <img src="./resources/images/Portrait.webp" alt="photo of Kim">
+      </div>
+      <img src="./resources/images/Portrait.webp" alt="photo of charles babbage">
     </section>
     <section id="projects">
       <h2>Projects</h2>
-      <div>
-        <h3>Random MTG Card Displayer</h3>
+      <div id="projects-container">
+        <div class="project">
+          <h3>Random MTG Card Displayer</h3>
+        </div>
       </div>
     </section>
     <section id="skills">
       <h2>Skills</h2>
-      <div>html</div>
-      <div>css</div>
-      <div>JavaScript</div>
+      <div id="badge-container">
+        <div class="badge">HTML</div>
+        <div class="badge">CSS</div>
+        <div class="badge">JavaScript</div>
+      </div>
     </section>
     <section id="contact">
       <h2>kim@mail.net</h2>
@@ -46,5 +52,6 @@
       Made for Codecademy Module
     </footer>
   </div>
-  </body>
+</body>
+
 </html>

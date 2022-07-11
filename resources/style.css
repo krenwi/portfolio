@@ -3,7 +3,7 @@
 }
 
 html {
-  scroll-padding-top: 6em;
+  scroll-padding-top: 4em;
 }
 
 body {
@@ -45,13 +45,27 @@ nav li a {
   top: 6em;
 }
 
+section {
+  padding: 2em 0;
+}
+
 #about {
   display: flex;
+  flex-flow: row wrap;
+}
+
+#about > div {
+  min-width: 15em;
 }
 
 #about img {
   height: 20em;
   margin: auto 2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 footer {

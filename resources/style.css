@@ -66,8 +66,25 @@ section {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.badge {
+  width: 8em;
+}
+
+.badge img {
+  width: 5em;
+  display: block;
+  margin: auto;
+}
+
+.badge h3 {
+  text-align: center;
+  margin: 0.2em auto;
 }
 
 footer {
   text-align: center;
+  font-size: smaller;
 }

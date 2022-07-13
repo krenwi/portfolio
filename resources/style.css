@@ -6,6 +6,10 @@ html {
   scroll-padding-top: 4em;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-flow: column nowrap;
@@ -33,7 +37,6 @@ nav li {
 }
 
 nav li a {
-  text-decoration: none;
   color: white;
   font-weight: bold;
 }
@@ -72,19 +75,34 @@ section {
   justify-content: space-evenly;
 }
 
+.project {
+  width: 10em;
+}
+
+.project h3 {
+  text-align: center;
+  margin: 0.2em auto;
+}
+
+.project img {
+  width: 8em;
+  display: block;
+  margin: auto;
+}
+
 .badge {
   width: 8em;
+}
+
+.badge h3 {
+  text-align: center;
+  margin: 0.2em auto;
 }
 
 .badge img {
   width: 5em;
   display: block;
   margin: auto;
-}
-
-.badge h3 {
-  text-align: center;
-  margin: 0.2em auto;
 }
 
 footer {

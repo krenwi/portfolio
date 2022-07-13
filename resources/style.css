@@ -38,7 +38,7 @@ nav li a {
   font-weight: bold;
 }
 
-#container {
+main {
   max-width: 60em;
   padding: 0em 1em 1em;
   position: relative;
@@ -51,16 +51,19 @@ section {
 
 #about {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
 }
 
-#about > div {
+#about div {
   min-width: 15em;
+  max-width: 30em;
 }
 
 #about img {
   height: 20em;
   margin: auto 2em;
+  border-radius: 0.5em;
 }
 
 .flex-container {

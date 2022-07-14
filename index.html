@@ -7,20 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="./resources/style.css">
-  <link rel="icon" type="image/x-icon" href="./favicon.png?v=2">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
 </head>
 
 <body>
   <header>
     <h1>Portfolio</h1>
-    <nav class="wide-menu" id="nav-menu">
-      <a class="anchor" href="#about">About Me</a>
-      <a class="anchor" href="#projects">Projects</a>
-      <a class="anchor" href="#skills">Skills</a>
-      <a class="anchor" href="#contact">Contact</a>
-      <a id="hamburger-icon" href="javascript:void(0);" class="icon" onclick="menu()">
+    <span></span>
+    <nav>
+      <ul class="wide-menu" id="nav-menu">
+        <li><a class="anchor" href="#about">About Me</a></li>
+        <li><a class="anchor" href="#projects">Projects</a></li>
+        <li><a class="anchor" href="#skills">Skills</a></li>
+        <li><a class="anchor" href="#contact">Contact</a></li>
+      </ul>
+      <button id="hamburger-icon" href="javascript:void(0);" class="icon" onclick="menu()" aria-label="toggle navigation">
         <img src="/resources/images/Hamburger_icon.svg" alt="Menu">
-      </a>
+      </button>
     </nav>
   </header>
   <main>
@@ -72,7 +75,7 @@
       Made for Codecademy Module
     </footer>
   </main>
-  <script type="text/javascript" src="./app.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>

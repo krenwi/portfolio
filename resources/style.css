@@ -58,13 +58,14 @@ header span {
   header {
     bottom: 0px;
     top: initial;
+    height: 3em;
   }
 
   #hamburger-icon {
     display: initial;
     position: absolute;
-    right: 12px;
-    top: 12px;
+    right: 8px;
+    top: 4px;
   }
 
   .wide-menu li {

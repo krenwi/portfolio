@@ -25,6 +25,7 @@ header {
   background-color: lightgrey;
   z-index: 5;
   width: 100%;
+  height: 4em;
 }
 /*
 header h1 {
@@ -54,11 +55,16 @@ header span {
 
 @media only screen and (max-width: 650px) {
   /* Hamburger menu */
+  header {
+    bottom: 0px;
+    top: initial;
+  }
+
   #hamburger-icon {
     display: initial;
     position: absolute;
-    right: 10px;
-    top: 20px;
+    right: 12px;
+    top: 12px;
   }
 
   .wide-menu li {
@@ -68,7 +74,7 @@ header span {
   .narrow-menu {
     display: block;
     position: absolute;
-    top: 64px;
+    bottom: 64px;
     right: 0;
     margin-left: 0em;
     border: solid 2px cornflowerblue;
@@ -83,6 +89,10 @@ header span {
 
   .narrow-menu li {
     margin: 0.9em 0.3em;
+  }
+
+  main {
+    top: 0em !important;
   }
 }
 

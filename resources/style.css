@@ -87,6 +87,7 @@ nav {
     display: initial;
     position: absolute;
     right: 0.7em;
+    bottom: 10px;
   }
 
   .wide-menu li {
@@ -96,7 +97,7 @@ nav {
   .narrow-menu {
     display: block;
     position: absolute;
-    bottom: 64px;
+    bottom: 3em;
     right: 0;
     margin-left: 0em;
     border: solid 2px cornflowerblue;
@@ -106,7 +107,6 @@ nav {
     list-style-type: none;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    font-size: larger;
   }
 
   .narrow-menu li {

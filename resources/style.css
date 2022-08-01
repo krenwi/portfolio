@@ -66,7 +66,7 @@ header span {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px), (max-aspect-ratio: 1) {
   /* Hamburger menu */
   header {
     bottom: 0px;

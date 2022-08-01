@@ -30,6 +30,14 @@ header {
   height: 4em;
 }
 
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 50em;
+  width: 90vw;
+}
+
 header span {
   width: 5%;
   max-width: 20em;
@@ -75,7 +83,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 650px), (max-aspect-ratio: 1) {
+@media screen and (max-width: 650px), (max-width: 650px) and (max-aspect-ratio: 1) {
   /* Hamburger menu */
   header {
     bottom: 0px;

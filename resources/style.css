@@ -74,6 +74,14 @@ nav {
   header {
     background-color: #333;
   }
+
+  a {
+    color: #6fadf7;
+  }
+
+  a:visited {
+    color: #f578ea;
+  }
 }
 
 @media (prefers-color-scheme: light) {

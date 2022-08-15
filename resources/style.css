@@ -82,6 +82,10 @@ nav {
   a:visited {
     color: #f578ea;
   }
+
+  nav li a, nav li a:visited {
+    color: white;
+  }
 }
 
 @media (prefers-color-scheme: light) {
